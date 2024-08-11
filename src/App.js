@@ -6,7 +6,6 @@ import Whychess from './pages/Whychess/Whychess';
 import Courses from "./pages/Courses/Courses"
 import Contact from "./pages/Contact/Contact"
 import About from "./pages/About/About"
-// import Blog from "./pages/Blog/Blog"
 import Whyus from './pages/Whyus/Whyus';
 import Btnc from "./components/Button/btnc/Btnc"
 import Footer from './components/Footer/Footer';
@@ -27,7 +26,6 @@ function App() {
         <Btnc />
         <Footer />
       </Router>
-
     </>
   );
 }
