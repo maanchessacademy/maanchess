@@ -1,0 +1,18 @@
+.whyus {
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+
+}
+
+.whyus_heading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20px;
+    text-shadow: .5px .5px 10px rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+}

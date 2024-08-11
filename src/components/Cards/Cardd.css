@@ -1,0 +1,151 @@
+.cardd {
+    margin: auto;
+    margin-bottom: 25px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 28px;
+    max-width: 740px;
+    border-radius: 30px;
+    background: #fff;
+    box-shadow: 0px 0px 14px 5px rgba(192, 192, 192, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    transition: 1s all;
+    overflow: hidden;
+
+}
+
+.cardd::after {
+    content: "";
+    position: absolute;
+    bottom: -100%;
+    right: -30%;
+    width: 740px;
+    height: 120px;
+    background: #23c55e;
+    filter: blur(70px);
+    border-radius: 50%;
+    transition: width 1s, height 1s;
+}
+
+.cardd::before {
+    content: "";
+    position: absolute;
+    bottom: -160%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    background: #23c55e;
+    filter: blur(70px);
+    border-radius: 50%;
+    transition: width 1s, height 1s;
+}
+
+.cardd:hover::before {
+    bottom: -185%;
+    width: 1000px;
+    height: 500px;
+    filter: blur(1px);
+}
+
+.cardd_containers {
+    position: relative;
+}
+
+.cardd_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 6px;
+    background: #e5f6eb;
+}
+
+.cardd:hover .cardd_icon {
+    background: #23c55e;
+    transition: 1s all;
+}
+
+
+.cardd:hover .cardd_icon svg,
+.cardd:hover .cardd_linkMore svg {
+    filter: brightness(0) invert(1);
+    transition: 1s all;
+}
+
+.cardd_title {
+    color: orangered;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: 1s all;
+    margin: 1rem 0;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .7px;
+}
+
+.cardd_subtitle {
+    color: #000000;
+    letter-spacing: .7px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    transition: 1s all;
+}
+
+.cardd:hover .cardd_title,
+.cardd:hover .cardd_subtitle,
+.cardd:hover .cardd_linkMore {
+    color: #fff;
+    transition: 1s all;
+}
+
+@media (max-width: 850px) {
+    .cardd {
+        margin: 30px;
+    }
+
+}
+
+@media (max-width: 850px) {
+    .cardd {
+        margin: 30px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .cardd_title {
+        font-size: 15px;
+    }
+
+    .cardd_subtitle {
+        font-size: 13px;
+    }
+
+
+
+
+
+}
+
+@media (max-width: 500px) {
+
+    .cardd {
+        margin: 10px;
+    }
+
+    .cardd_title {
+        font-size: 15px;
+    }
+
+    .cardd_subtitle {
+        font-size: 13px;
+    }
+
+}

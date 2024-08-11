@@ -1,0 +1,108 @@
+.cardb {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    border-radius: 24px;
+    /* line-height: 1.6; */
+    transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+    margin: auto;
+}
+
+.cardb_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 20px;
+    border-radius: 22px;
+    color: #ffffff;
+    overflow: hidden;
+    background: #2e105b;
+    transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.cardb_content::before {
+    position: absolute;
+    content: "";
+    top: -4%;
+    left: 50%;
+    width: 90%;
+    height: 90%;
+    transform: translate(-50%);
+    background: #ced8ff;
+    z-index: -1;
+    transform-origin: bottom;
+    border-radius: inherit;
+    transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.cardb_content::after {
+    position: absolute;
+    content: "";
+    top: -8%;
+    left: 50%;
+    width: 80%;
+    height: 80%;
+    transform: translate(-50%);
+    background: #ffc681;
+    z-index: -2;
+    transform-origin: bottom;
+    border-radius: inherit;
+    transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+
+.cardb_title {
+    font-size: 15px;
+    color: rgb(255, 219, 206);
+    font-weight: 700;
+}
+
+.cardb_content .cardb_para {
+    z-index: 1;
+    opacity: 1;
+    font-size: 13px;
+    transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.cardb_head {
+    display: flex;
+    align-items: center;
+}
+
+.cardb_head img {
+    width: 70px;
+
+}
+
+.cardb_content .link {
+    z-index: 1;
+    color: #fea000;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 16px;
+    transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.cardb_content .link:hover {
+    text-decoration: underline;
+}
+
+.cardb:hover {
+    transform: translate(0px, -16px);
+}
+
+.cardb:hover .cardb_content::before {
+    rotate: -8deg;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cardb:hover .cardb_content::after {
+    rotate: 8deg;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}

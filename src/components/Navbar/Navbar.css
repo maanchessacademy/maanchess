@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+}
+
+.nav_wrap {
+    width: 100% !important;
+    background-color: var(--e);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar_main_container {
+    height: 90px;
+    color: var(--c);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-top: auto; */
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1300px;
+    background-color: rgba(255, 255, 255, 0.734);
+    /* box-shadow: 1px 1px 10px blue; */
+    box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(3px);
+    z-index: 1000 !important;
+}
+
+.logo {
+
+    max-height: 100px;
+    margin-top: 8px;
+}
+
+.left_part {
+    margin-left: 50px;
+}
+
+.left_part a {
+    text-decoration: none;
+}
+
+.home_left_name {
+
+    text-shadow: 1.8px 0.8px 20px #ff0f0f;
+    text-align: right;
+}
+
+.right_part {
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.right_part li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.right_part li a:hover {
+    color: #FF4500 !important;
+}
+
+.right_part li a {
+    text-decoration: none;
+    color: var(--c);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.bar {
+    display: none;
+    cursor: pointer;
+}
+
+.right_part_sm {
+    padding: 10px;
+    margin-bottom: -100px;
+    width: 100%;
+    position: fixed;
+    top: 90px;
+    z-index: 100;
+    padding-bottom: 50px;
+    border: 1px solid rgba(126, 110, 244, 0.2);
+    font-family: 'Roboto', sans-serif;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.734);
+    box-shadow: 1px 1px 10px blue;
+    backdrop-filter: blur(3px);
+}
+
+.right_part_sm li {
+    width: 100px;
+
+    list-style-type: none;
+    margin: auto;
+    padding: 20px;
+    z-index: 100;
+}
+
+.right_part_sm a {
+    text-decoration: none;
+    color: var(--c);
+    font-weight: 700;
+    font-size: 18px;
+    text-shadow: 1px 1px 10px white;
+
+}
+
+.right_part_sm li a:hover {
+    color: #FF4500 !important;
+}
+
+@media (min-width: 750px) {
+    .right_part_sm {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 750px) {
+    .right_part {
+        display: none;
+    }
+
+    .bar {
+        display: inline-block;
+        margin-right: 40px;
+        font-size: 25px;
+    }
+}

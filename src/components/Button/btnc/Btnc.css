@@ -1,0 +1,41 @@
+.btnc-container {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+}
+
+.btnc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.svgContainer {
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    background-color: #40c351;
+    border: 1px solid rgba(44, 255, 51, 0.466);
+}
+
+.svgContainer svg {
+    height: 40px;
+}
+
+.btnc:hover .svgContainer {
+    background-color: #40c351;
+    backdrop-filter: blur(4px);
+}

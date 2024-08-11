@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+}
+
+.contact_form {
+    max-width: 500px;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-family: inherit;
+    gap: 10px;
+    padding-inline: 2em;
+    padding-bottom: 0.4em;
+    background-color: #fff;
+    border-radius: 20px;
+
+}
+
+.contact_form-heading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 20px;
+
+
+}
+
+.contact_form-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 10px;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #ffffff;
+    box-shadow: 2px 5px 10px rgb(131, 131, 131);
+    border-left: 4px solid rgb(3, 3, 99);
+    border-top: 4px solid rgb(3, 3, 99);
+
+}
+
+.contact_input-field {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #000000;
+    padding: 6px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .8px;
+    font-size: 16px;
+
+}
+
+.contact_sendMessage-btn {
+    border: none;
+    outline: none;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: orangered;
+    padding: 15px 25px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 1px;
+    box-shadow: inset 2px 0px 4px -1px rgb(8 7 6);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.contact_sendMessage-btn:hover {
+    transition: all ease-in-out 0.3s;
+    color: orangered;
+    background-color: white;
+    box-shadow: outset 2px 0px 4px -1px rgb(8 7 6);
+
+}
+
+.contact_form-card1 {
+    background-image: linear-gradient(163deg, #14829b 0%, #0b4a84 100%);
+    border-radius: 22px;
+    transition: all 0.3s;
+    box-shadow: 2px 2px 30px 5px rgba(44, 91, 167, 0.3);
+
+}
+
+.contact_form-card1:hover {
+    box-shadow: 0px 0px 30px 1px rgba(20, 81, 160, 0.3);
+
+}
+
+.contact_form-card2 {
+    border-radius: 0;
+    transition: all 0.2s;
+
+}
+
+.contact_form-card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+
+}

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800&display=swap');
+
+
+.wk_main {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding-bottom: 50px;
+
+}
+
+.wk_heading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20px;
+    /* text-shadow: .5px .5px 10px rgb(253, 111, 111); */
+    margin-top: 60px;
+    text-align: center;
+
+}
+
+.wk_head_wrap {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.wk_head_left {
+    width: 100%;
+    max-width: 600px;
+    /* margin-top: 50px; */
+    margin: auto;
+
+
+}
+
+.wk_head_left img {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #ffbbbb;
+
+}
+
+
+.wk_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding: 50px 0;
+    max-height: 550px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+    /* thumb color and track color */
+}
+
+/* Custom scrollbar for WebKit browsers */
+.wk_cards::-webkit-scrollbar {
+    width: 10px;
+    /* Width of the scrollbar */
+}
+
+.wk_cards::-webkit-scrollbar-track {
+    background: #ffefef;
+    /* Color of the track */
+}
+
+.wk_cards::-webkit-scrollbar-thumb {
+    background: #888;
+    /* Color of the thumb */
+    border-radius: 10px;
+    /* Rounded corners */
+}
+
+.wk_cards::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Color of the thumb when hovered */
+}
+
+@media (max-width: 800px) {
+    .wk_head_wrap {
+        flex-wrap: wrap;
+    }
+
+
+
+}

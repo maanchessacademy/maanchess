@@ -1,0 +1,104 @@
+.cardc_card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-bottom: 2rem;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 1.5rem;
+    letter-spacing: .8px;
+    box-shadow: inset 2px 1px 15px -6px rgb(0 0 0);
+    margin: 7px;
+
+}
+
+.cardc_card:hover {
+    box-shadow: 2px 1px 15px -6px rgb(0 0 0)
+}
+
+
+.cardc_header {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cardc_title {
+    font-size: 18px;
+    line-height: 2rem;
+    font-weight: 700;
+
+}
+
+.cardc_price {
+    font-size: 3.75rem;
+    line-height: 1;
+    font-weight: 700;
+
+}
+
+.cardc_desc {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.625;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+.cardc_lists {
+    margin-bottom: 1.5rem;
+    flex: 1 1 0%;
+
+}
+
+.cardc_lists .cardc_list {
+    margin-bottom: 0.5rem;
+    display: flex;
+    margin-left: 0.5rem;
+
+}
+
+.cardc_lists .cardc_list svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    flex-shrink: 0;
+    margin-right: 0.5rem;
+    color: #2E105B;
+
+}
+
+.cardc_actions {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cardc_action {
+    border: none;
+    outline: none;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: orangered;
+    padding: 15px 25px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 1px;
+    box-shadow: inset 2px 0px 4px -1px rgb(8 7 6);
+
+}
+
+.cardc_action:hover {
+    color: orangered;
+    background-color: white;
+    box-shadow: outset 2px 0px 4px -1px rgb(8 7 6);
+
+}
