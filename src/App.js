@@ -10,12 +10,15 @@ import Whyus from './pages/Whyus/Whyus';
 import Btnc from "./components/Button/btnc/Btnc"
 import Footer from './components/Footer/Footer';
 import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy';
+import ScrollToTop from './components/ScrollTop/Scrolltop';
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Navbar />
+
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/whychess" element={<Whychess />} ></Route>

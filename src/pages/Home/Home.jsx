@@ -13,6 +13,7 @@ import Contact from "../Contact/Contact"
 import Whyus from "../Whyus/Whyus"
 
 const Home = () => {
+ 
   return (
     <>
       <div className='home_main'>
