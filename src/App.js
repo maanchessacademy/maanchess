@@ -9,6 +9,7 @@ import About from "./pages/About/About"
 import Whyus from './pages/Whyus/Whyus';
 import Btnc from "./components/Button/btnc/Btnc"
 import Footer from './components/Footer/Footer';
+import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/whyus" element={<Whyus />}></Route>
+          <Route path="/privacy-policy" element={<PrivacyPolicy />}></Route>
         </Routes>
         <Btnc />
         <Footer />

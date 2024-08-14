@@ -10,18 +10,15 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
     const whatsappMessage = `Name: ${name}%0APhone: ${phone}%0AAge: ${age}%0ARating: ${rating}%0AMessage: ${message}`;
-
     const whatsappUrl = `https://wa.me/7649866386?text=${whatsappMessage}`;
-
     window.location.href = whatsappUrl;
   };
 
   return (
     <>
-      <div className="contact_main">
-        <div className="contact_wrap">
+      {/* <div className="contact_main">
+        <div className="contact_wrap"> */}
           <div className="contact_form">
             <div className="contact_form-card1">
               <div className="contact_form-card2">
@@ -88,8 +85,8 @@ const Contact = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        {/* </div>
+      </div> */}
     </>
   );
 };

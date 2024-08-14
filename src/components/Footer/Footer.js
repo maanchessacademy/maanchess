@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 import { FaInstagram } from "react-icons/fa";
 
 
@@ -18,7 +19,8 @@ const Footer = () => {
                         <h4>Support</h4>
                         <p><a href="/class-guidelines">Class Guidelines</a></p>
                         <p><a href="/terms-conditions">Terms & Conditions</a></p>
-                        <p><a href="/privacy-policy">Privacy Policy</a></p>
+                        <Link to="/privacy-policy" >Privacy Policy</Link>
+
                     </div>
 
                     <div className="footer-section social">
@@ -33,7 +35,7 @@ const Footer = () => {
                             <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-youtube"></i>
                             </a> */}
-                            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.instagram.com/chess__square_orgs/" target="_blank" rel="noopener noreferrer">
                                 <FaInstagram />
                             </a>
                         </div>

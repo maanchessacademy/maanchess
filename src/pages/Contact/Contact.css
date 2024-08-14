@@ -1,17 +1,18 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
 .contact_form {
     max-width: 500px;
     margin: auto;
-    padding: 50px;
+    padding: 50px 0px;
     display: flex;
     flex-direction: column;
     align-self: center;
     font-family: inherit;
     gap: 10px;
-    padding-inline: 2em;
+    padding-inline: 1em;
     padding-bottom: 0.4em;
     background-color: #fff;
     border-radius: 20px;
@@ -98,20 +99,20 @@
     box-shadow: 2px 2px 30px 5px rgba(44, 91, 167, 0.3);
 
 }
-
+/* 
 .contact_form-card1:hover {
     box-shadow: 0px 0px 30px 1px rgba(20, 81, 160, 0.3);
 
-}
+} */
 
 .contact_form-card2 {
     border-radius: 0;
     transition: all 0.2s;
 
 }
-
+/* 
 .contact_form-card2:hover {
     transform: scale(0.98);
-    border-radius: 20px;
+    border-radius: 200px;
 
-}
+} */
