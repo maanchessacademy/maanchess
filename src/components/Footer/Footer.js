@@ -11,8 +11,8 @@ const Footer = () => {
                 <div className="footer-content">
                     <div className="footer-section contact">
                         <h4>Contact Us</h4>
-                        <p>Email: <a href="mailto:abhishekparmar7440@gmail.com">abhishekparmar7440@gmail.com</a></p>
-                        <p>Phone: <a href="tel:+917649866386">+91 7649866386</a></p>
+                        <p>Email: <a href="mailto:maanchessacademy@gmail.com">maanchessacademy@gmail.com</a></p>
+                        <p>Phone: <a href="tel:+917440513747">+91 7440513747</a></p>
                     </div>
 
                     <div className="footer-section support">
@@ -42,7 +42,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer-bottom">
-                    <p>&copy; {new Date().getFullYear()} ChessSquare. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Maan Chess Academy. All rights reserved.</p>
                 </div>
             </footer>
         </>

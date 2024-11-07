@@ -5,6 +5,7 @@
     margin-top: 55px;
     padding: 20px 0;
     border-top: 1px solid black;
+    background-color: azure;
 }
 
 .footer-content {
@@ -32,7 +33,7 @@
 }
 
 .footer-section a {
-    /* color: #fff; */
+    color: #000000;
     text-decoration: none;
 }
 
@@ -46,7 +47,7 @@
 }
 
 .social-icons a {
-    color: #200d69;
+    color: #e40d0d;
     font-size: 20px;
     margin: 0 10px;
     transition: color 0.3s ease;
