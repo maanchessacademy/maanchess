@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import Logo from './img/Logo.png';
+import Logo from './img/LOGO.png';
 import "./Navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 // import Btnc from "../Button/btnc/Btnc"
